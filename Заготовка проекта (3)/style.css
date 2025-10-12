@@ -67,12 +67,35 @@ body {
     gap: 35px;
 
 }
-
+.like {
+    position: absolute;
+    left: 213px;
+    top: 403px;
+    transition: all 0.3s;
+}
+.save{
+    position: absolute;
+    left: 273px;
+    top: 403px;
+    transition: all 0.3s;
+}
 .gallery__item {
     max-width: 330px;
-
+    position: relative;
 }
-
+button{
+    background: transparent;
+    text-decoration: none;
+    border: 5px;
+}
+.like:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.save:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
 .image {
     width: 100%;
     
